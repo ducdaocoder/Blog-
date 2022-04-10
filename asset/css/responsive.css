@@ -1,0 +1,156 @@
+/* BREAK POINT */
+
+/* PC */
+@media (min-width: 64em) {
+    #header {
+        height: 100%;
+        width: 120px;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color:var(---00x);
+        overflow: hidden;
+    }
+
+    
+#header img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#nav {
+    text-align: center;
+    height: 100%;
+    overflow: hidden;
+}
+
+#nav li a {
+    padding: 24px 24px;
+    color: var(---fff);
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    font-size: 12px;
+}
+
+#nav li span a {
+    background-color: #000;
+}
+
+#nav li span:hover a {
+    background-color:#f1f1f1;
+    color: #000;
+}
+
+#nav li:hover a {
+    background-color: #000;
+}
+
+#nav li i {
+    display: block;
+    margin: 12px 0;
+    font-size: 26px;
+}
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    #header img {
+        display: none;
+    }
+
+    #header {
+        height: 43px;
+        background-color: #000;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        z-index: 1px;
+        overflow: hidden;
+    }
+
+    #nav {
+        text-align: center;
+    }
+
+    #nav li a {
+        float: left;
+        width: calc(100%/4);
+    }
+    
+    #nav li a {
+        color: #757575;
+        line-height: 43px;
+    }
+
+    #nav li:hover a {
+        background-color:#ccc;
+    }
+
+    #nav li i {
+        display: none;
+    }
+
+    #main {
+        padding-left: 0;
+        padding: 0 20px;
+    }
+
+    #content {
+        padding-right: 0;
+    }
+   
+}
+
+/* Mobile */
+@media (max-width: 46.1875em) {
+    #header img {
+        display: none;
+    }
+
+    #header {
+        height: 43px;
+        background-color: #000;
+        position: fixed;
+        top:0;
+        left: 0;
+        right: 0;
+        z-index: 1px;
+        overflow: hidden;
+    }
+
+    #nav {
+        text-align: center;
+    }
+
+    #nav li a {
+        float: left;
+        width: calc(100%/4);
+    }
+    
+    #nav li a {
+        color: #757575;
+        line-height: 43px;
+    }
+
+    #nav li:hover a {
+        background-color:#ccc;
+    }
+
+    #nav li i {
+        display: none;
+    }
+
+    #main {
+        padding-left: 0;
+        padding: 0 20px;
+    }
+
+    #content {
+        padding-right: 0;
+    }  
+}
